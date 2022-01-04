@@ -15,8 +15,8 @@ public class AutomationCode {
 	}
 	
 	public void FacebookLoginLogout() throws Exception{
-		driver.findElement(By.id("email")).sendKeys("phossain010@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("10845@pvz");
+		driver.findElement(By.id("email")).sendKeys("your-email-address");
+		driver.findElement(By.id("pass")).sendKeys("********");
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[2]/div[4]/div[1]/span/div/div[1]")).click();
